@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlin_room_30_tiwi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kotlin_Room_30_Tiwi">
+        <activity android:name=".DashboardAnimeMovie"
+            android:theme="@style/Theme.Kotlin_Room_30_Tiwi_ss"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Kotlin_Room_30_Tiwi_ss" />
+        <activity
+            android:name=".AddActivity"
+            android:theme="@style/Theme.Add_Anime_Movie" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.Kotlin_Room_30_Tiwi_ss">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
